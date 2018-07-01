@@ -19,15 +19,15 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro" align="center">
+        <p className="App-intro">
           <h1>Mujhse Dosti Karoge!</h1>
-          <div style={{width: "853px"}}>
+          <div className="w-90 center">
             <Slider {...settings}>
               <div>
-                <img src="1.jpg" alt="Rani Mukerji" />
+                <img className="center" src="1.jpg" alt="Rani Mukerji" />
               </div>
               <div>
-                <img src="2.jpg" alt="Kiss her!" />
+                <img className="center" src="2.jpg" alt="Kiss her!" />
               </div>
             </Slider>
           </div>
